@@ -1,0 +1,86 @@
+/* All of it */
+.connect-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+/* First row */
+.connect-title-follow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.follow-links-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Second row */
+.message-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* send button (a bit bigger than the others */
+#send-button {
+  width: 286px;
+  max-width: 90vw;
+  height: 74px;
+}
+
+.send-button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5%;
+}
+
+/* This is from the about section */
+
+.img-about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.how-to-pronounce {
+  display: flexbox;
+  flex-direction: row;
+  padding: 5%;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  max-height: 100%;
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* How to fix the text properly here ^^?*/
+}
+
+.my-picture-links-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  justify-content: space-between;
+}
+
+.intro-text-container {
+  padding-top: 5%;
+  font-size: 150%;
+}

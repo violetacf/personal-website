@@ -1,0 +1,25 @@
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* .img-container {
+  display: flex;
+  flex-direction: row;
+  /* max-width: 100%; */
+/* gap: 10px;
+} */
+
+/* different size image for the links, and no border */
+.links-logo {
+  max-width: 17%;
+  border: none;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

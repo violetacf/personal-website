@@ -1,0 +1,46 @@
+* {
+  /* text-align: center; */
+  padding: 0;
+  margin: 0;
+  --background: #d3fff3;
+  --buttons: #afbbf2;
+  --buttons-border: #7f0799;
+  --input-text: Helvetica;
+  --buttons-text: Sathu;
+  --title-text: Tahoma;
+  --text-font: Tahoma;
+}
+
+html {
+  background-color: var(--background);
+}
+
+/* This covers my profile picture and the function */
+img {
+  width: 500px;
+  max-width: 90vw;
+  border-radius: 15px;
+  border: 5px;
+  border: solid;
+  border-color: var(--buttons-border);
+}
+
+/* this is for all the buttons */
+button {
+  width: 160px;
+  height: 60px;
+  border-radius: 15px;
+  border-width: 3px;
+  background-color: var(--buttons);
+  border-color: var(--buttons-border);
+  color: var(--buttons-border);
+  font-family: var(--buttons-text);
+  font-size: 25px;
+}
+
+/* titles of each section */
+#page-title {
+  color: var(--buttons-border);
+  font-size: 64px;
+  font-family: var(--title-text);
+}

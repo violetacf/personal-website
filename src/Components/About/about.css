@@ -1,0 +1,42 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.img-about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.how-to-pronounce {
+  display: flexbox;
+  flex-direction: row;
+  padding: 5%;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  max-height: 100%;
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* How to fix the text properly here ^^?*/
+}
+
+.my-picture-links-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.intro-text-container {
+  padding-top: 5%;
+  font-size: 150%;
+}

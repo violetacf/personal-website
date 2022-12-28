@@ -1,0 +1,33 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.img-portfolio-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  max-height: 100%;
+  justify-content: space-between;
+}
+
+.function-picture-links-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.intro-text-container {
+  padding-top: 5%;
+  font-size: 150%;
+}
