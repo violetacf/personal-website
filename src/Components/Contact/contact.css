@@ -37,9 +37,9 @@
 
 /* send button (a bit bigger than the others */
 #send-button {
-  width: 286px;
+  width: 286pt;
   max-width: 90vw;
-  height: 74px;
+  height: 74pt;
 }
 
 .send-button-container {

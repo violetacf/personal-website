@@ -4,35 +4,136 @@ function MyProjects() {
   return (
     <div className="projects-container">
       <div className="project-container">
-        <a href="/portfolio/todo">
-          <button id="project-button">To Do List</button>
-        </a>
+        <h2 className="project-title">To Do List</h2>
+        <div className="images-container">
+          <img
+            className="project-image"
+            src="/Pictures/advent-yoga-day.png"
+            alt="yoga-day"
+          />
+          <img
+            className="project-image"
+            src="/Pictures/advent-yoga-night.png"
+            alt="yoga-night"
+          />
+        </div>
         <p>
           {' '}
           To Do list: this was our week 9 project. First time working with a
-          team of four people
+          team of four people.
+          <br />
+          <br />
+          Captura de pantalla del proyecto, link con gitHub (make public),
+          descripcion,
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <div className="buttons-container">
+          <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
+            <button id="project-button">Launch App</button>
+          </a>
+          <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
+            <button id="project-button">See code in GitHub</button>
+          </a>
+        </div>
       </div>
       <div className="project-container">
-        <a href="/portfolio/adventofyoga">
-          <button id="project-button">Advent of Yoga</button>
-        </a>
+        <h2 className="project-title">Advent of Yoga</h2>
+        <div className="images-container">
+          <img
+            className="project-image"
+            src="/Pictures/advent-yoga-day.png"
+            alt="yoga-day"
+          />
+          <img
+            className="project-image"
+            src="/Pictures/advent-yoga-night.png"
+            alt="yoga-night"
+          />
+        </div>
         <p>
           {' '}
           Advent of Yoga: Friday Hackathon. We completed this project pair
           programming in 6 hours
+          <br />
+          <br />
+          Captura de pantalla del proyecto, link con gitHub (make public),
+          descripcion,
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <div className="buttons-container">
+          <a
+            href="https://advent-of-yoga-miko-violeta-hackathon.onrender.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button id="project-button">Launch App</button>
+          </a>
+          <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
+            <button id="project-button">See code in GitHub</button>
+          </a>
+        </div>
       </div>
       <div className="project-container">
-        <a href="/portfolio/blog">
-          <button id="project-button">Blog</button>
-        </a>
+        <h2 className="project-title">Blog</h2>
+        <div className="images-container">
+          <img
+            className="project-image"
+            src="/Pictures/advent-yoga-day.png"
+            alt="yoga-day"
+          />
+          <img
+            className="project-image"
+            src="/Pictures/advent-yoga-night.png"
+            alt="yoga-night"
+          />
+        </div>
         <p>
           {' '}
           Blog: Working on Authentification, created a blog that allows to
           filter the posts depending on the author to render personal posts when
           logged in
+          <br />
+          <br />
+          Captura de pantalla del proyecto, link con gitHub (make public),
+          descripcion,
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <div className="buttons-container">
+          <a
+            href="https://advent-of-yoga-miko-violeta-hackathon.onrender.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button id="project-button">Launch App</button>
+          </a>
+          <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
+            <button id="project-button">See code in GitHub</button>
+          </a>
+        </div>
       </div>
     </div>
   );

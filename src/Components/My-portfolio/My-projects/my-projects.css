@@ -3,17 +3,39 @@
   flex-direction: column;
   height: 100%;
   justify-content: center;
-  gap: 15px;
+  gap: 15pt;
 }
 
 .project-container {
   display: flex;
+  flex-direction: column;
+  gap: 25pt;
+  margin-top: 30pt;
+}
+
+.buttons-container {
+  display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 2%;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
 }
 
 #project-button {
-  width: 286px;
+  width: 286pt;
   max-width: 90vw;
-  height: 74px;
+  height: 74pt;
+}
+
+.project-image {
+  width: 45%;
+}
+
+.project-title {
+  font-size: 46pt;
+  font-family: var(--title-text);
 }

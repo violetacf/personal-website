@@ -9,6 +9,7 @@
   --buttons-text: Sathu;
   --title-text: Tahoma;
   --text-font: Tahoma;
+  font-size: 17pt;
 }
 
 html {
@@ -17,30 +18,30 @@ html {
 
 /* This covers my profile picture and the function */
 img {
-  width: 500px;
+  width: 500pt;
   max-width: 90vw;
-  border-radius: 15px;
-  border: 5px;
+  border-radius: 15pt;
+  border: 10pt;
   border: solid;
   border-color: var(--buttons-border);
 }
 
 /* this is for all the buttons */
 button {
-  width: 160px;
-  height: 60px;
-  border-radius: 15px;
-  border-width: 3px;
+  width: 160pt;
+  height: 60pt;
+  border-radius: 15pt;
+  border-width: 3pt;
   background-color: var(--buttons);
   border-color: var(--buttons-border);
   color: var(--buttons-border);
   font-family: var(--buttons-text);
-  font-size: 25px;
+  font-size: 25pt;
 }
 
 /* titles of each section */
 #page-title {
   color: var(--buttons-border);
-  font-size: 64px;
+  font-size: 64pt;
   font-family: var(--title-text);
 }
