@@ -1,0 +1,19 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  gap: 15px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+#project-button {
+  width: 286px;
+  max-width: 90vw;
+  height: 74px;
+}
