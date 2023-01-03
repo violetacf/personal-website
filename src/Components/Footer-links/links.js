@@ -5,7 +5,11 @@ function ContactLinks() {
     <div className="links-container">
       <a href="https://github.com/violetacf" target="_blank" rel="noreferrer">
         <div className="img-container">
-          <img className="links-logo" src="/Pictures/github.png" alt="Github" />
+          <img
+            className="links-logo"
+            src="/Pictures/github-logo.png"
+            alt="Github"
+          />
           <p>Github</p>
         </div>
       </a>
@@ -17,7 +21,7 @@ function ContactLinks() {
         <div className="img-container">
           <img
             className="links-logo"
-            src="/Pictures/Twitter.png"
+            src="/Pictures/twitter-logo.png"
             alt="Twitter"
           />
           <p>Twitter</p>

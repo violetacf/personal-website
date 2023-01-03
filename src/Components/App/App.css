@@ -18,7 +18,7 @@ html {
 
 /* This covers my profile picture and the function */
 img {
-  width: 500pt;
+  width: 100%;
   max-width: 90vw;
   border-radius: 15pt;
   border: 10pt;

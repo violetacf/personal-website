@@ -12,18 +12,17 @@
 }
 
 .how-to-pronounce {
-  display: flexbox;
-  flex-direction: row;
-  padding: 5%;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .about {
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  /* padding: 5%; */
   max-height: 100%;
   justify-content: center;
+  gap: 20pt;
   /* justify-content: space-between; */
   /* How to fix the text properly here ^^?*/
 }
@@ -31,12 +30,19 @@
 .my-picture-links-container {
   display: flex;
   flex-direction: column;
-  padding: 5%;
-  justify-content: space-between;
-  gap: 40pt;
+  /* padding: 5%; */
+  justify-content: center;
+  gap: 50pt;
 }
 
-.intro-text-container {
-  padding-top: 5%;
-  font-size: 150%;
+.arrow {
+  width: 20%;
+  max-width: 90vw;
+  border-radius: 0pt;
+  border: 0pt;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
 }

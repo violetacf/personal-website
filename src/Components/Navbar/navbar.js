@@ -11,9 +11,9 @@ function Navbar() {
       <a href="/portfolio">
         <button>My portfolio</button>
       </a>
-      <a href="/contact">
+      {/* <a href="/contact">
         <button>Contact</button>
-      </a>
+      </a> */}
     </div>
     // </div>
   );
