@@ -4,23 +4,63 @@ function MyProjects() {
   return (
     <div className="projects-container">
       <div className="project-container">
-        <h2 className="project-title">To Do List</h2>
+        <h2 className="project-title">Food App</h2>
         <div className="images-container">
           <img
             className="project-image"
-            src="/Pictures/advent-yoga-day.png"
-            alt="yoga-day"
+            src="/Pictures/food-app.jpg"
+            alt="food-app"
           />
           <img
             className="project-image"
-            src="/Pictures/advent-yoga-night.png"
-            alt="yoga-night"
+            src="/Pictures/food-app.jpg"
+            alt="food-app"
+          />
+        </div>
+        <p>
+          {' '}
+          Food app to check intolerances. Month project. First time working with
+          a team of six people. Monday to Friday: ideation, design in Figma,
+          Backend, SQL Elephant SQL, CSS, JS, pair programming, presented on
+          Friday, retrospective, ideation disney etc, manifesto
+          <br />
+          <br />
+          Captura de pantalla del proyecto, link con gitHub (make public),
+          descripcion,
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div className="buttons-container">
+          <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
+            <button id="project-button">Launch App</button>
+          </a>
+          <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
+            <button id="project-button">See code in GitHub</button>
+          </a>
+        </div>
+      </div>
+      <div className="project-container">
+        <h2 className="project-title">Goosfraba</h2>
+        <div className="images-container">
+          <img
+            className="project-image"
+            src="/Pictures/goosfraba-main.png"
+            alt="goosfraba-main"
           />
         </div>
         <p>
           {' '}
           To Do list: this was our week 9 project. First time working with a
-          team of four people.
+          team of four people. Monday to Friday: ideation, design in Figma,
+          Backend, SQL Elephant SQL, CSS, JS, pair programming, presented on
+          Friday, retrospective, ideation disney etc, manifesto
           <br />
           <br />
           Captura de pantalla del proyecto, link con gitHub (make public),
@@ -90,18 +130,23 @@ function MyProjects() {
         </div>
       </div>
       <div className="project-container">
-        <h2 className="project-title">Blog</h2>
+        <h2 className="project-title">Blogging & Coding</h2>
         <div className="images-container">
           <img
             className="project-image"
-            src="/Pictures/advent-yoga-day.png"
-            alt="yoga-day"
+            src="/Pictures/blog-light.png"
+            alt="blog-day"
           />
           <img
             className="project-image"
-            src="/Pictures/advent-yoga-night.png"
-            alt="yoga-night"
+            src="/Pictures/blog-profile.png"
+            alt="blog-profile"
           />
+          {/* <img
+            className="project-image"
+            src="/Pictures/blog-dark.png"
+            alt="blog-night"
+          /> */}
         </div>
         <p>
           {' '}

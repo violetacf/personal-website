@@ -22,17 +22,19 @@
   /* padding: 5%; */
   max-height: 100%;
   justify-content: center;
-  gap: 20pt;
+  width: 300%;
+  /* gap: 20pt; */
   /* justify-content: space-between; */
   /* How to fix the text properly here ^^?*/
 }
 
 .my-picture-links-container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   /* padding: 5%; */
-  justify-content: center;
-  gap: 50pt;
+  justify-content: space-between;
+  /* gap: 20pt; */
+  margin-top: 0pt;
 }
 
 .arrow {
@@ -45,4 +47,24 @@
 .contact-container {
   display: flex;
   flex-direction: column;
+}
+
+.intro-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40pt;
+}
+
+/* #my-pic {
+  max-width: 60%;
+} */
+
+#function-pic {
+  max-width: 40%;
+}
+
+.function-pic-container {
+  display: flex;
+  justify-content: right;
+  margin-right: 100pt;
 }

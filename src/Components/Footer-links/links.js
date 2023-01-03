@@ -3,6 +3,14 @@ import './links.css';
 function ContactLinks() {
   return (
     <div className="links-container">
+      <div className="contact-container">
+        <h2 className="subtitle">You can contact me here!</h2>
+        <img
+          className="arrow"
+          src="/Pictures/arrow-down.png"
+          alt="arrow down"
+        ></img>
+      </div>
       <a href="https://github.com/violetacf" target="_blank" rel="noreferrer">
         <div className="img-container">
           <img
