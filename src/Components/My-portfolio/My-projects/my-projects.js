@@ -4,7 +4,7 @@ function MyProjects() {
   return (
     <div className="projects-container">
       <div className="project-container">
-        <h2 className="project-title">Food App</h2>
+        <h2 className="project-title">&lt;Food App/&gt;</h2>
         <div className="images-container">
           <img
             className="project-image"
@@ -39,15 +39,15 @@ function MyProjects() {
         </p>
         <div className="buttons-container">
           <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
-            <button id="project-button">Launch App</button>
+            <button id="project-button">&lt;Launch App/&gt;</button>
           </a>
           <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
-            <button id="project-button">See code in GitHub</button>
+            <button id="project-button">&lt;See code in GitHub/&gt;</button>
           </a>
         </div>
       </div>
       <div className="project-container">
-        <h2 className="project-title">Goosfraba</h2>
+        <h2 className="project-title">&lt;Goosfraba/&gt;</h2>
         <div className="images-container">
           <img
             className="project-image"
@@ -77,15 +77,15 @@ function MyProjects() {
         </p>
         <div className="buttons-container">
           <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
-            <button id="project-button">Launch App</button>
+            <button id="project-button">&lt;Launch App/&gt;</button>
           </a>
           <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
-            <button id="project-button">See code in GitHub</button>
+            <button id="project-button">&lt;See code in GitHub/&gt;</button>
           </a>
         </div>
       </div>
       <div className="project-container">
-        <h2 className="project-title">Advent of Yoga</h2>
+        <h2 className="project-title">&lt;Advent of Yoga/&gt;</h2>
         <div className="images-container">
           <img
             className="project-image"
@@ -122,15 +122,15 @@ function MyProjects() {
             target="_blank"
             rel="noreferrer"
           >
-            <button id="project-button">Launch App</button>
+            <button id="project-button">&lt;Launch App/&gt;</button>
           </a>
           <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
-            <button id="project-button">See code in GitHub</button>
+            <button id="project-button">&lt;See code in GitHub/&gt;</button>
           </a>
         </div>
       </div>
       <div className="project-container">
-        <h2 className="project-title">Blogging & Coding</h2>
+        <h2 className="project-title">&lt;Blogging & Coding/&gt;</h2>
         <div className="images-container">
           <img
             className="project-image"
@@ -173,10 +173,10 @@ function MyProjects() {
             target="_blank"
             rel="noreferrer"
           >
-            <button id="project-button">Launch App</button>
+            <button id="project-button">&lt;Launch App/&gt;</button>
           </a>
           <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
-            <button id="project-button">See code in GitHub</button>
+            <button id="project-button">&lt;See code in GitHub/&gt;</button>
           </a>
         </div>
       </div>

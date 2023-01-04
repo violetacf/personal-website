@@ -53,6 +53,7 @@
   display: flex;
   flex-direction: column;
   gap: 40pt;
+  padding: 0;
 }
 
 /* #my-pic {
@@ -65,6 +66,17 @@
 
 .function-pic-container {
   display: flex;
+  /* justify-content: space-between; */
+  /* Uncomment this above and comment out the lines below to add spanish button */
   justify-content: right;
   margin-right: 100pt;
+  /*These two ^^*/
 }
+
+/* .spanish-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 3%;
+} */
+/*The spanish button style works*/
