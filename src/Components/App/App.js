@@ -8,8 +8,8 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="portfolio" element={<MyPortfolio />} />
