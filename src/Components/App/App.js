@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <BrowserRouter>
         <Routes>
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
           <Route path="/portfolio" element={<MyPortfolio />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
