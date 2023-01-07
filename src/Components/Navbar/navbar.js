@@ -15,7 +15,7 @@ function Navbar() {
           </p>
         </div>
         <div className="buttons-container">
-          <a className="button-top" href="/about">
+          <a className="button-top" href="/">
             <button>&lt;About/&gt; </button>
           </a>
           <a className="button-top" href="/portfolio">
