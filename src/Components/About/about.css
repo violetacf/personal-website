@@ -17,6 +17,7 @@
   max-height: 100%;
   justify-content: center;
   width: 300%;
+  padding: 3%;
   /* gap: 20pt; */
   /* justify-content: space-between; */
   /* How to fix the text properly here ^^?*/
@@ -25,9 +26,8 @@
 .my-picture-links-container {
   /* display: flex; */
   /* flex-direction: column; */
-  /* padding: 5%; */
+  padding: 3%;
   justify-content: space-between;
-  /* gap: 20pt; */
   margin-top: 0pt;
 }
 

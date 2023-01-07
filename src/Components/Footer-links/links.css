@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 20pt;
+  margin-top: 150pt;
 }
 
 /* .img-container {
