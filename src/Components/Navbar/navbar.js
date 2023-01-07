@@ -4,7 +4,16 @@ function Navbar() {
   return (
     <div className="navbar-container-main">
       <div className="navbar-container">
-        <div className="code-info"></div>
+        <div className="code-info">
+          <br></br>
+          <p className="code-text">
+            const name = 'Violeta';<br></br>
+            const learning = true;<br></br>
+            let spokenLanguages = ['Spanish', 'English'];<br></br>
+            let skills = ['JavaScript', 'CSS', 'html', 'Figma', 'Trello', 'Agile
+            Methodology', 'TypeScript', 'React'];
+          </p>
+        </div>
         <div className="buttons-container">
           <a className="button-top" href="/about">
             <button>&lt;About/&gt; </button>
@@ -17,7 +26,7 @@ function Navbar() {
       </a> */}
         </div>
       </div>
-      <hr></hr>
+      <hr className="divider"></hr>
     </div>
   );
 }

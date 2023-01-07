@@ -3,9 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: #1a181b;
-  background-image: url('/Users/violetacique/Developer/My-website-portfolio/code-info.png');
+  /* background-image: url('/Users/violetacique/Developer/My-website-portfolio/code-info2.png');
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: 100% 100%; */
 }
 
 .buttons-container {
@@ -27,7 +27,22 @@
   background-size: 100% 100%;
 } */
 
-hr {
+.divider {
   background-color: #7f0799;
   height: 5pt;
+}
+
+.code-text {
+  min-width: 200%;
+  padding: 3%;
+  font-size: 100%;
+  color: #d3fff3;
+  margin-bottom: 20pt;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 1026px) {
+  .code-text {
+    display: none;
+  }
 }

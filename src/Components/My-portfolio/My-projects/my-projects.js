@@ -100,21 +100,20 @@ function MyProjects() {
         </div>
         <p>
           {' '}
-          Advent of Yoga: Friday Hackathon. We completed this project pair
+          Description: JavaScript, React, CSS, Pair programming, useContext.
           programming in 6 hours
           <br />
           <br />
-          Captura de pantalla del proyecto, link con gitHub (make public),
-          descripcion,
-          <br />
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Week 11 Hackathon with the School of Code. This week we learnt about
+          deployment. We chose to make a Christmas related app and came with the
+          idea of an advent of yoga. We also added a useContext to make dark
+          mode for the site. We created our own database with 25 days, each
+          containing an object with a picture, description, name of pose. We
+          deployed this app using Render, we also used Netlify during the week.
+          This was the first project that we deployed back end and front end.
+          Stretch goal for the app: create different difficulties for the user
+          to choose from, and to link the days with the date, so the user
+          wouldn't be able to see days ahead.
         </p>
         <div className="buttons-container">
           <a
@@ -150,22 +149,21 @@ function MyProjects() {
         </div>
         <p>
           {' '}
-          Blog: Working on Authentification, created a blog that allows to
-          filter the posts depending on the author to render personal posts when
-          logged in
+          Description: Authentification, Authorisation, JavaScript, React, CSS,
+          Pair programming, useContext.
           <br />
           <br />
-          Captura de pantalla del proyecto, link con gitHub (make public),
-          descripcion,
+          TODO: DEPLOY, LINK TO GITHUB (MAKE PUBLIC)
           <br />
           <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Week 10 Hackathon with the School of Code. This week we had learnt
+          about authentification and authorisation. In this Hackathon the goal
+          was to use these new learnt knowledge to create an app thaat would
+          check the user's identity and log them in. We chose to use Auth0 and
+          we decided to make a blog app, where the user would be able to log in
+          and see the posts of everyone and when going into their profile tab
+          they would see only their posts. We also practised some React Hooks
+          (useContext) to create a dark mode for the site.
         </p>
         <div className="buttons-container">
           <a

@@ -11,15 +11,9 @@
   justify-content: center;
 }
 
-.how-to-pronounce {
-  display: flex;
-  flex-direction: column;
-}
-
 .about {
   display: flex;
   flex-direction: column;
-  /* padding: 5%; */
   max-height: 100%;
   justify-content: center;
   width: 300%;
@@ -56,14 +50,18 @@
   padding: 0;
 }
 
-/* #my-pic {
-  max-width: 60%;
-} */
-
-#function-pic {
-  max-width: 40%;
+#my-pic {
+  border-radius: 33% 67% 52% 48% / 35% 47% 53% 65%;
 }
 
+#function-pic {
+  max-width: 50%;
+}
+@media only screen and (max-width: 1060px) {
+  #function-pic {
+    max-width: 200%;
+  }
+}
 .function-pic-container {
   display: flex;
   /* justify-content: space-between; */
@@ -73,6 +71,13 @@
   /*These two ^^*/
 }
 
+@media only screen and (max-width: 2000pt) {
+  .function-pic-container {
+    justify-content: center;
+    margin-right: 0pt;
+  }
+}
+
 /* .spanish-button-container {
   display: flex;
   flex-direction: column;
@@ -80,3 +85,23 @@
   padding: 3%;
 } */
 /*The spanish button style works*/
+
+.how-to-speaker {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20pt;
+}
+
+#sound-pic {
+  margin-top: 3pt;
+  max-width: 40pt;
+  border: 0pt;
+}
+
+#sound-pic:hover {
+  cursor: pointer;
+}
+
+.subtitle:hover {
+  cursor: pointer;
+}

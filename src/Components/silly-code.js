@@ -7,6 +7,9 @@ const learning = true;
 let spokenLanguages = ['Spanish', 'English'];
 let skills = ['JavaScript', 'CSS', 'html', 'Figma', 'Trello', 'Agile Methodology', 'TypeScript', 'React'];
 
+
+
+
 let experience = 92;
 function wakeUp() {
   return 'hello';

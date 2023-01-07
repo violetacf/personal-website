@@ -30,13 +30,28 @@ img {
 button {
   width: 160pt;
   height: 60pt;
-  border-radius: 15pt;
+  /* border-radius: 15pt; */
+  border-radius: 73% 27% 72% 28% / 50% 50% 50% 50%;
   border-width: 3pt;
   background-color: var(--buttons);
   border-color: var(--buttons-border);
   color: var(--buttons-border);
   font-family: var(--buttons-text);
   font-size: 25pt;
+  /* cursor: pointer; */
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--buttons-border);
+  border-color: var(--buttons);
+  color: var(--buttons);
+}
+
+button:active {
+  background-color: var(--buttons-border);
+  border-color: var(--buttons);
+  color: var(--buttons);
 }
 
 /* titles of each section */

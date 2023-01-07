@@ -2,10 +2,14 @@ import './about.css';
 import ContactLinks from '../Footer-links/links';
 
 function About() {
-  // function playSound(animal) {
-  //   document.getElementById(animal).play();
-  // }
+  let audio = new Audio('/violeta.m4a');
+  // let audio = new Audio(
+  //   'https://ssl.gstatic.com/dictionary/static/pronunciation/2022-03-02/audio/vi/violeta_es_es_1.mp3'
+  // );
 
+  const start = () => {
+    audio.play();
+  };
   return (
     <div className="about-container">
       <div className="img-about-container">
@@ -17,27 +21,17 @@ function About() {
         </div>
         <div className="about">
           <h1 id="page-title">I'm Violeta,</h1>
-          <div className="how-to-pronounce">
-            <h2 className="subtitle">Hear how to pronounce my name</h2>
-            <audio controls>
-              <source
-                src="https://ssl.gstatic.com/dictionary/static/pronunciation/2022-03-02/audio/vi/violeta_es_es_1.mp3"
-                type="audio/mpeg"
-              />{' '}
-            </audio>
-            {/* <div class="container">
-              <a href={playSound('dog')}>
-                <img src="/Pictures/sound.png" alt="speaker" />
-              </a>{' '}
-              <br />
-              <a href={playSound('dog')}>Dog</a>
-            </div>
-
-            <audio
-              id="my-name"
-              src="https://ssl.gstatic.com/dictionary/static/pronunciation/2022-03-02/audio/vi/violeta_es_es_1.mp3"
-              preload="auto"
-            ></audio> */}
+          <div className="how-to-speaker">
+            <h2 className="subtitle" onClick={start}>
+              Hear how to pronounce my name
+            </h2>
+            {/* [bjo'leta] */}
+            <img
+              id="sound-pic"
+              src="/Pictures/sound.png"
+              alt="speaker"
+              onClick={start}
+            />
           </div>
           <div className="intro-text-container">
             <p>
