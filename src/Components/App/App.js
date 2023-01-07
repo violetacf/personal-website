@@ -1,6 +1,6 @@
 import './App.css';
 import MyPortfolio from '../My-portfolio/my-portfolio';
-import Contact from '../Contact/contact';
+// import Contact from '../Contact/contact';
 import About from '../About/about';
 import Navbar from '../Navbar/navbar';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
