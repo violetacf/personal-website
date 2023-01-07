@@ -16,6 +16,7 @@
   flex-direction: column;
   padding: 5%;
   max-height: 100%;
+  gap: 30pt;
   justify-content: space-between;
 }
 

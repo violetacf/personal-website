@@ -2,14 +2,18 @@
   /* text-align: center; */
   padding: 0;
   margin: 0;
-  --background: #d3fff3;
-  --buttons: #afbbf2;
-  --buttons-border: #7f0799;
+  /* --background: #d3fff3; */
+  --background: #181a1b;
+  /* --buttons: #afbbf2; */
+  --buttons: #323639;
+  /* --buttons-border: #7f0799; */
+  --buttons-border: #a408c6;
   --input-text: Helvetica;
   --buttons-text: Sathu;
   --title-text: Tahoma;
   --text-font: Tahoma;
   font-size: 17pt;
+  color: white;
 }
 
 html {
@@ -35,7 +39,8 @@ button {
   border-width: 3pt;
   background-color: var(--buttons);
   border-color: var(--buttons-border);
-  color: var(--buttons-border);
+  /* color: var(--buttons-border); */
+  color: #dd63f8;
   font-family: var(--buttons-text);
   font-size: 25pt;
   /* cursor: pointer; */
