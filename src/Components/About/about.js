@@ -47,7 +47,7 @@ function About() {
               more and after I decided to change careers and start from zero in
               another field I looked for bootcamps (didn't have any time to
               loose!). <br />I am one of the lucky people that studied with the
-              School of Code, where I am learnt JavaScript, CSS, HTML,
+              School of Code, where I have learnt JavaScript, CSS, HTML,
               TypeScript, React, agile team working skills. <br />
               My experience makes me aware of the needs of people that might not
               have the voice to give feedback. <br />
