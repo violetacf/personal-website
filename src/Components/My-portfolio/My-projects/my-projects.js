@@ -38,7 +38,11 @@ function MyProjects() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <div className="buttons-container">
-          <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
+          <a
+            href="https://six-weddings-and-a-seamonkey-frontend.onrender.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button id="project-button">&lt;Launch App/&gt;</button>
           </a>
           <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
