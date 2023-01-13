@@ -96,6 +96,7 @@
   margin-top: 3pt;
   max-width: 40pt;
   border: 0pt;
+  filter: brightness(0) invert(1);
 }
 
 #sound-pic:hover {
